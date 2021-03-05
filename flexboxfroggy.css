@@ -1,0 +1,125 @@
+/* General stuff*/
+body {
+    background-color: #43A048;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	font-size: 15px;
+}
+
+/*The two sections: instructions (left) and froggo (right)*/
+section {
+	width: 50%;
+	padding: 25px;
+}
+
+/*Right section*/
+.froggo {
+    background-color: #1F5768;
+	border-radius: 10px;
+	margin-bottom: 75px;
+}
+
+/*Aligning the pictures*/
+.images {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/*The lines of code mentioned in the instructions*/
+.code {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 900px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+/*The gigantic FLEXBOX FROGGY*/
+.title {
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+/* The div that contains the title and the level buttons*/
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Links in general */
+a{
+	color: white;
+}
+
+/*The "Level 1 of 24" part*/
+.buttons {
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 5px 10px; 
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+/*Putting the line thing between the "<" "Level 1 of 24" and ">"*/
+.button-item {
+	border-right: 2px solid rgba(255, 255, 255, 0.3); 
+}
+
+/*Not putting the line at the end...*/
+.button-item:last-child {
+	border-right: none;
+}
+
+/*Specifically un-underlining the level buttons*/
+a.button-item {
+	text-decoration: none;
+}
+
+/*Underlining the "justify-content" part*/
+a.code {
+	border-bottom: 2px solid white;
+	text-decoration: none;
+}
+
+/*The links at the end*/
+footer {
+	font-size: 12px;
+	text-align: center;
+	padding: 15px;
+}
+
+/*Grey box*/
+.practice {
+	background-color: #e0e0e0;
+	border-left: 20px solid #999;
+	color: #777;
+	font-family: 'Source Code Pro', monospace;
+	padding: 10px;
+	/*padding-bottom: 20%;*/
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*The part where you enter the code*/
+input {
+	border: none;
+	font-size: 15px;
+	width: 100%;
+}
+
+/*The goddamn "Next" button*/
+.practice a {
+	padding: 10px;
+	background-color: #d11606;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	justify-content: flex-end; 
+	align-self: flex-end;
+}
